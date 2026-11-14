@@ -1032,7 +1032,7 @@ const BIRTHDAY_OPEN_AT = Date.parse('2026-11-14T00:00:00-04:00');
 
 // ⚠️ MODO PRUEBA: deja abrir la carta antes de tiempo y muestra un menú para saltar entre pantallas.
 // Ponlo en false antes de enviársela a Sarita para que vuelva a quedar cerrada hasta el 14 de noviembre.
-const MODO_PRUEBA = true;
+const MODO_PRUEBA = false;
 
 function birthdayClock(now = Date.now()) {
   const remaining = Math.max(0, BIRTHDAY_OPEN_AT - now);
